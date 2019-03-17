@@ -17,12 +17,17 @@ node main.js "City name OR Zip code"
 ```
 
 # By using city name
-For example, for Chicago, USA:
+For example, for Sydney, Australia:
 
 ```
-node main.js Chicago
+node main.js Sydney
 ```
 # By Zip code
 ```
-node main.js 60007
+node main.js 1147
+```
+
+# Combination of multiplte City name and Zip code
+```
+node main.js 
 ```
