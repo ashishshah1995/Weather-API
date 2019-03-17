@@ -31,3 +31,8 @@ node main.js 1147
 ```
 node main.js 
 ```
+
+Example
+
+![tempsnip](https://user-images.githubusercontent.com/26305085/54493280-563a2b80-48a4-11e9-9e90-ba37ac5495b9.png)
+
