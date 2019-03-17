@@ -1,8 +1,8 @@
 # Weather-API
 
-#Useage
+# Useage
 
-First, get an API key from https://openweathermap.org/
+First generate an API key from https://openweathermap.org/
 
 Insert the generated API key inside weather.js file where APPID = 'Insert here'
 
@@ -10,10 +10,19 @@ Insert the generated API key inside weather.js file where APPID = 'Insert here'
 const request = https.get(`https://api.openweathermap.org/data/2.5/weather?q=${query}&APPID=Insert here`
 ```
 
-Then, in a command line with Node.js installed, just run:
+Then, in a command line with Node.js installed, run:
 
-node app "ADDRESS OR LOCATION"
+```
+node main.js "City name OR Zip code"
+```
 
-For example, for Brisbane, Australia:
+# By using city name
+For example, for Chicago, USA:
 
-node app Brisbane
+```
+node main.js Chicago
+```
+# By Zip code
+```
+node main.js 60007
+```
