@@ -16,18 +16,18 @@ Then, in a command line with Node.js installed, run:
 node main.js "City name OR Zip code"
 ```
 
-# By using city name
+# By using City name as argument
 For example, for Sydney, Australia:
 
 ```
 node main.js Sydney
 ```
-# By Zip code
+# By Zip code as argument
 ```
 node main.js 1147
 ```
 
-# Combination of multiplte City name and Zip code
+# Combination of multiple arguments of City name and Zip code
 ```
 node main.js Sydeny 400086 Taiwan Auckland 07029 California
 ```
