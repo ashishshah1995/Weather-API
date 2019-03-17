@@ -29,7 +29,7 @@ node main.js 1147
 
 # Combination of multiplte City name and Zip code
 ```
-node main.js 
+node main.js Sydeny 400086 Taiwan Auckland 07029 California
 ```
 
 Example
